@@ -52,6 +52,7 @@
         </footer>
 
         @livewireScripts
+        <script src="{{asset('build/assets/app-CY7-CAOb.js')}}"></script>
     </body>
 
 </html>
