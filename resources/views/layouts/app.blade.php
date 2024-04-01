@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @stack('styles')
         <title>Devstagram - @yield('titulo')</title>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <link rel="stylesheet" href="{{asset('build/assets/app-BpuoVHns.css')}}">
+        <!--@vite(['resources/css/app.css', 'resources/js/app.js'])-->
         @livewireStyles
     </head>
     <body class="bg-gray-100">
